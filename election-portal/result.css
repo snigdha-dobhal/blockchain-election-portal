@@ -1,0 +1,39 @@
+body {
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+#Top {
+    width: 50%;
+    margin-left: 25em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#Results {
+    padding:1em;
+    background-color:#ffff;
+    opacity: 0.75;
+    width: 70%;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+#Stats {
+    padding:1em;
+    background-color:#ffff;
+    opacity: 0.75;
+    width: 70%;
+    margin-top: 80px;
+}
+
+#loader {
+    width;: 100px;
+    display:none;
+}
